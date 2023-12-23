@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.parent-container {
+    background-color: cornflowerblue;
+    position: relative;
+    top: 2em;
+
+    border: 2px solid black;
+    border-radius: 1em;
+    padding: 2rem;
+}
+.heading {
+    font-size: x-large;
+    text-align: center;
+    font-weight: 700;
+    color: blanchedalmond;
+}
+
+.field {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+.field input {
+    padding: 0.5rem;
+    width: max-content;
+    font-size: large;
+    font-weight: 500;
+    border: none;
+    border-radius: 1em 0 0 1em;
+}
+.field button {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0 1em 1em 0;
+    background-color: rgb(253, 99, 99);
+    color: aliceblue;
+    font-weight: bolder;
+}
+
+.button {
+    display: block;
+    margin: 1rem 2rem 1rem 2rem;
+    background-color: rgb(66, 181, 243);
+    border-radius: 1rem;
+    width: 80%;
+    padding: 1rem;
+    font-size: larger;
+}
