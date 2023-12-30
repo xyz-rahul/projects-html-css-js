@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #607274;
+}
+h1{
+    color: antiquewhite;
+}
+
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.box:hover{
+    transform: scale(1.5);
+    transition: 0.5s ease;
+}
+.button {
+    height: 2rem;
+    font-size: large;
+    padding: 0.25rem;
+    margin-top: 1px;
+    margin-right: 2px;
+    width: 100%;
+    background-color: #DED0B6;
+    text-align: center;
+    color: #FDF7E4;
+    font-size: large;
+    font-weight: 900;
+}
+.button:hover{
+    background-color: #F7B787;
+}
+.message{
+    padding: 1rem;
+    height: 10rem;
+    width: 10rem;
+    background-color: #FAEED1;
+}
+
+.add {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    padding: 1rem;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 20px;
+    border: 2px solid white;
+    font-size: 9rem;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+}
+.add:hover{
+    transform: scale(1.5);
+    transition: 0.5s ease;
+}
+
+.input {
+    display: block;
+    margin: 2rem;
+    height: 90%;
+    width: 90%;
+    padding: 1rem;
+    text-align: start;
+
+    border-radius: 20px;
+    background-color: #FAEED1;
+    border: 4px solid #DED0B6;
+    font-weight: 300;
+    font-size: 1.5rem;
+
+}
+
